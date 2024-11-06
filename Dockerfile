@@ -36,7 +36,7 @@ COPY . .
 
 # Set the PUBLIC_URL environment variable
 # This will be used by React to prefix paths with /app
-ARG PUBLIC_URL=/app
+ARG PUBLIC_URL=/react
 ENV PUBLIC_URL=$PUBLIC_URL
 
 # Build the React app
@@ -46,7 +46,7 @@ RUN npm run build
 FROM node:20.16.0
 
 # Set the working directory
-WORKDIR /react
+WORKDIR /app
 
 # Install `serve` globally
 RUN npm install -g serve
