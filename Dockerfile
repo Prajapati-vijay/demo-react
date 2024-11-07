@@ -36,7 +36,7 @@ COPY . .
 
 # Set the PUBLIC_URL environment variable
 # This will be used by React to prefix paths with /app
-ARG PUBLIC_URL=/react
+ARG PUBLIC_URL=/react1
 ENV PUBLIC_URL=$PUBLIC_URL
 
 # Build the React app
