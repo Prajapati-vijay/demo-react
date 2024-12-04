@@ -15,7 +15,7 @@ const Students = () => {
 
   return (
     <div>
-      <h1>Students data from Flask API showing using QCH</h1>
+      <h1>Students data from Flask API showing using Quant Connect Hub</h1>
       {error && <p>Error: {error}</p>}
       <ul>
         {students.map(student => (
