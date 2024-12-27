@@ -7,7 +7,7 @@ const Students = () => {
 
   useEffect(() => {
     // Fetch data from FastAPI backend
-    fetch('https://prod-quant.vaneck.com/flask/students')
+    fetch('https://test-quant.vaneck.com/flask/students')
       .then(response => response.json())
       .then(data => setStudents(data))
       .catch(err => setError(err.message));
