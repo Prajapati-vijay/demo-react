@@ -7,7 +7,7 @@ const Students = () => {
 
   useEffect(() => {
     // Fetch data from FastAPI backend
-    fetch('http://djr.local/fast2/students')
+    fetch('https://test-quant.vaneck.com/flask/students')
       .then(response => response.json())
       .then(data => setStudents(data))
       .catch(err => setError(err.message));
@@ -15,7 +15,7 @@ const Students = () => {
 
   return (
     <div>
-      <h1>Students data from Fast API</h1>
+      <h1>Students data from Flask API showing using QCH</h1>
       {error && <p>Error: {error}</p>}
       <ul>
         {students.map(student => (
