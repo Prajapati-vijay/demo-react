@@ -5,7 +5,7 @@ import About from "./components/about";
 
 function App() {
   return (
-    <Router basename="/reactapp">
+    <Router basename="/reactapp1">
       <nav>
         <ul>
           <li>
