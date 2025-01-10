@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./components/home";
 import About from "./components/about";
-import Students from ""./components/student";"
+import Students from "./components/student";
 
 function App() {
   return (
