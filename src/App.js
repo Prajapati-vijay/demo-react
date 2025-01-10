@@ -6,7 +6,7 @@ import Students from ""./components/student";"
 
 function App() {
   return (
-    <Router basename="/reactapp1">
+    <Router basename="/reactapp">
       <nav>
         <ul>
           <li>
