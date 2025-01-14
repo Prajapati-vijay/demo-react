@@ -7,7 +7,7 @@ import CookieReader from "./components/CookieReader";
 
 function App() {
   return (
-    <Router basename="/reactapp">
+    <Router basename="/reactcookie">
       <nav>
         <ul>
           <li>
