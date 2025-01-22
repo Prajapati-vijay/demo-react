@@ -8,7 +8,7 @@ const IM = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://prod-quant.vaneck.com/IMAPI/creared/");
+        const response = await fetch("https://prod-quant.vaneck.com/IMAPI/creared");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
