@@ -4,6 +4,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Students from "./components/student";
 import CookieReader from "./components/CookieReader";
+import IM from "./components/IM";
 
 function App() {
   return (
@@ -22,13 +23,16 @@ function App() {
     <li>
             <Link to="/cookie">Cookie Data</Link>
           </li>
+     <li>
+            <Link to="/IM">IM Data</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
        <Route path="/student" element={<Students />} />
-      <Route path="/cookie" element={<CookieReader />} />
+      <Route path="/IM" element={<IM />} />
       </Routes>
     </Router>
   );
