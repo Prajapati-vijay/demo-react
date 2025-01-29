@@ -5,7 +5,7 @@ import About from "./components/about";
 import Students from "./components/student";
 import CookieReader from "./components/CookieReader";
 import IM from "./components/IM";
-import UserData from "./UserData";
+import UserData from "./components/UserData";
 
 function App() {
   return (
