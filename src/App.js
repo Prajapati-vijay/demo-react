@@ -5,6 +5,7 @@ import About from "./components/about";
 import Students from "./components/student";
 import CookieReader from "./components/CookieReader";
 import IM from "./components/IM";
+import UserData from "./UserData";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
      <li>
             <Link to="/IM">IM Data</Link>
           </li>
+    <li>
+            <Link to="/UserData">UserData</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
@@ -33,6 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
        <Route path="/student" element={<Students />} />
       <Route path="/IM" element={<IM />} />
+  <Route path="/UserData" element={<UserData />} />
       </Routes>
     </Router>
   );
