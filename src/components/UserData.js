@@ -7,7 +7,7 @@ const UserData = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const sessionId = Cookies.get("session_id");
+    const sessionId = Cookies.get("sessionid");
 
     if (!sessionId) {
       setError("Session ID not found in cookies.");
