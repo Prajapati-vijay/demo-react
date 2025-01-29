@@ -10,6 +10,7 @@ const CookieReader = () => {
       authorize: Cookies.get("authorize"),
       username: Cookies.get("username"),
       email: Cookies.get("email"),
+      sessionid:Cookies.get("sessionid"),
     };
     setCookies(specificCookies); // Update state with specific cookies
   }, []);
