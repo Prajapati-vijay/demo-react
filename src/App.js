@@ -37,6 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
        <Route path="/student" element={<Students />} />
       <Route path="/IM" element={<IM />} />
+   <Route path="/cookie" element={<CookieReader />} />
   <Route path="/UserData" element={<UserData />} />
       </Routes>
     </Router>
