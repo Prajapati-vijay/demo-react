@@ -24,7 +24,7 @@ const UserData = () => {
 
   return (
     <div>
-      <h1>User Data</h1>
+      <h1>User Data From Cookie</h1>
       {error ? (
         <p style={{ color: "red" }}>{error}</p>
       ) : user ? (
