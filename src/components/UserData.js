@@ -5,7 +5,7 @@ const UserData = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://prod-quant.vaneck.com/user_data/", {
+    fetch("/user_data/", {
       method: "GET",
       credentials: "include", // 🔥 Ensures session cookies are sent
       headers: {
